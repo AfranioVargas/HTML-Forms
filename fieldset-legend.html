@@ -1,0 +1,37 @@
+<!--
+    <fieldset>
+        - Agrupamento de campos
+        - Mesmo propósito
+        - Semântico
+        - Acessibilidade
+
+        Atributos especiais
+            - disabled
+                - desabilita todos os elementos internos
+                - não serão enviados ao submeter o formulário
+            
+            - form
+                - o id de um formulário ao qual esse fieldset pertence
+                - não precisa estar dentro do formulário
+
+            - name
+                - nome do grupo
+
+            
+    <legend>
+        - nome do agrupamento
+        - primeiro elemento dentro do fieldset
+
+-->
+<form id="contato" action=""></form>
+    <button>Enviar</button><button>Apagar</button><button>Cancelar</button>
+
+
+<form form="contato" name="inputs-contact">
+    <fieldset>
+        <legend>Contato</legend>
+            <label for="">Nome</label>
+            <input type="text">
+        
+    </fieldset>
+</form>
